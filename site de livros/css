@@ -1,0 +1,66 @@
+:root {
+    --cor-verde: #3C6850;
+    --cor-branco: #ffffff;
+    --cor-verde-claro: #A4C3B2;
+    --cor-marrom: #69544F;
+    --cor-preto: #000000;
+}
+body {
+    background-color: var(--cor-verde);
+    color: #ffffff;
+}
+
+.fundo-imagem { 
+    background-image: url('caminho/da/imagem.jpg');
+    height: 750px; /* Ajuste conforme necessário */
+    width: 1500px; /* Ou outro valor desejado */
+    background-size: cover; /* Para cobrir todo o espaço */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
+}
+
+nav {
+    background-color: var(--cor-marrom) /* Cor de fundo do menu */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores */
+    padding: 70px; /* Remove o padding */
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 90px;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Espaçamento entre itens */
+}
+
+nav ul li a {
+    color: var(--cor-verde); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 15px 15px; /* Espaçamento interno */
+    font-size: 40px;
+    border: var(--cor-verde) 1px solid;
+    padding: 5px 90px;
+    border-radius: 10px;
+    background-color: #F7F0E5;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-verde-claro); /* Cor ao passar o mouse */
+}
+
+.header {
+    background-image: url('logo.png'); /* Caminho da sua logo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: left center; /* Alinha à esquerda */
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+section {
+    min-height: 500px;
+}
