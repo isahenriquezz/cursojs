@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu site</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="estilo.css">
+        
+    <body>
+        <header>
+            <nav>
+                <div class="header">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#livros">Livros</a></li>
+                    <li><a href="#sobre-nos">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+           <img class="fundo-imagem" src = "teste.png" alt="Descrição da imagem">
+           <section id="sobre-nos">
+            <h1>
+            Seja bem vindo(a) ao meu site
+            </h1>
+        </section>
+        <section id="livros">
+            <h2>
+            Aqui você verá o meu primeiro projeto com estilização e um menu bonito.
+            </h2>
+        </section>
+
+        <script type="text/javascript">
+            const menuSobre = document.getElementById('#sobre-nos');
+            const menuLivros = document.getElementById('#livros');
+
+            menuSobre.addEventListener('click', function() {
+                menuSobre.classList.toggle('item-ativo');
+            });
+
+            menuContato.addEventListener('click', function() {
+                menuContato.classList.toggle('item-ativo');
+            });
+        </script>
+    </body>
+</html>
